@@ -8,7 +8,6 @@ fn quicksort(arr: &mut [i32], low: i32, high: i32) {
         quicksort(arr, p + 1, high);
     }
 }
-
 fn partition(arr: &mut [i32], low: i32, high: i32) -> i32 {
     let pivot = arr[high as usize];
     let mut i = low - 1;

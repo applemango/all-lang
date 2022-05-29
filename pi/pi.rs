@@ -1,6 +1,6 @@
 //[Cargo.toml]
-//  ↳[dependencies]
-//     ↳ add => rand = "0.6"
+//  [dependencies]
+//     add => rand = "0.6"
 
 fn main() {
     use rand::Rng;
